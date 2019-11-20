@@ -15,7 +15,7 @@
 
 <body>
 
-<!--
+  <!--
   classes: <nav> -> navbar, navbar-expand-sm bg-Light
            <ul> -> navbar-nav
            <li> -> nav-item
@@ -24,21 +24,78 @@
            Optional: bg colors, text colors, active, disabled
   -->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-<ul class="navbar-nav">
-  <li><a class= "navbar-brand" href="#">Music Port</a></li>
-  <li class="nav-item active"><a href="#" class="nav-link">Lyrics - Revenge</a></li>
-  <li class="nav-item"><a href="#" class="nav-link">Lyrics - Da Coconut Nut</a></li>
-  <li class="nav-item"><a href="#" class="nav-link">Lyrics - Peanut Butter Jelly Time</a></li>
-  <li class="nav-item"><a href="#" class="nav-link ">Lyrics - Take On Me</a></li>
-
-</ul>
+    <ul class="navbar-nav">
+      <li><a class="navbar-brand" href="#">Music Port</a></li>
+      <li class="nav-item active"><a href="#" class="nav-link">Lyrics - Revenge</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Lyrics - Da Coconut Nut</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Lyrics - Peanut Butter Jelly Time</a></li>
+      <li class="nav-item"><a href="#" class="nav-link ">Lyrics - Take On Me</a></li>
+      <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+      </style>
+    </ul>
   </nav>
-  <div class="container topimages">
-  <div class="row">
-    <div class="col-sm-12">
-      <img src="images/Imagething.jpg"</img>
-  </div>
-  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 topimage">
+        <h1 class="text-white Headed">Music Port</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3 sidebar">
+        <h3 class="text-white Headed">This is placeholder text till i figure out what to put here.</h3>
+        <p>Hi my name is Jacobe jones and i am doing this readezine on this projext lol<p>
+      </div>
+
+      <div class="col-sm-9 Thebod">
+        <h3 class="text-white Headed">This is placeholder text till i figure out what to put here.</h3>
+        <p>Hi my name is Jacobe jones and i am doing this readezine on this projext lol<p>
+          <!-- Carousel Container Start -->
+          <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+
+            <!-- The Slideshow -->
+            <div class="carousel-inner">
+              <!-- First Image -->
+              <div class="carousel-item active">
+                <img src="images/coconutnut.jpg" alt="coconutnut" width="2200" height="1000">
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/creeper.jpg" alt="creeper" width="2200" height="1000">
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/PBJT.jpg" alt="PBJT" width="2200" height="1000">
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/Take on me.jpg" alt="Take on me" width="2200" height="1000">
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev" style="background-color: grey">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#demo" data-slide="next" style="background-color: grey">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+      </div>
+    </div>
   </div>
 </body>
 
