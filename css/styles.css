@@ -8,18 +8,20 @@ background-color: rgb(14,14,14);
 }
 .Headed{
   text-align: center;
-  text-align:center;
   padding-top: 150px;
 }
 .sidebar{
   background-color: #401AE8;
   padding-top: 50px;
-  padding:        20px;
-  text-align:center;
+  padding: 20px;
 }
 .Thebod{
   background-color: #1A61E8;
   padding-top: 50px;
-  padding:        16px;
-  text-align:center;
+  padding: 16px;
+}
+.Bottombar{
+  height: 50px;
+  padding: 20px;
+  background-color: #1A61E8;
 }
